@@ -1,0 +1,105 @@
+body {
+  background-color: #e2e2e2; /* Set background color to red */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.label-form {
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.control-form {
+  text-align: left;
+}
+
+.input-form,
+.prediction-result {
+  padding: 40px;
+  width: auto;
+  border: #282c34 1px solid;  
+  border-radius: 5px;
+  margin: 50px auto auto auto;
+  height: 600px;
+  background-color: #fff;
+}
+
+.space-between {
+  padding: 10px;
+}
+
+.species-result {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+@media (max-width: 767px) {
+
+  .input-form,
+  .prediction-result {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .input-form,
+  .prediction-result {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .input-form,
+  .prediction-result {
+    width: 610px;
+  }
+}
+
+.species-name{
+  width: 50px;
+}
